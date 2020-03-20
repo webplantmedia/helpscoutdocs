@@ -58,7 +58,7 @@
 }
 
 body {
-	border: 100px solid red;
+	border: 100px solid green;
 	background: #fff url("images/bg.png") repeat-x scroll center top / auto 500px;
 	color: #314A5F;
 	font-family: 'Archer', serif;
