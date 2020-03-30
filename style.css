@@ -56,9 +56,17 @@ a.button:hover {
 	/* right: 0; */
 	padding: 15px 40px;
 }
+@media only screen and (min-width: 769px) {
+	.nav-collapse {
+		height: auto !important;
+	}
+}
 @media only screen and (max-width: 768px) {
 	.navbar .navbar-inner {
 		padding: 15px 20px;
+	}
+	.nav-collapse.collapse .nav {
+		margin-top: 20px;
 	}
 }
 .navbar .navbar-inner nav {
@@ -86,9 +94,6 @@ a.button:hover {
 		margin: 60px auto 0 auto;
 		float: none;
 	}
-}
-.nav-collapse.in.collapse .nav {
-	margin-top: 20px;
 }
 
 body {
@@ -201,6 +206,11 @@ body {
 	margin-right: 5%;
 
 }
+@media only screen and (max-width: 768px) {
+	#docsSearch h1 {
+		font-size: 36px;
+	}
+}
 
 #searchBar button {
 	background: #3ecf8e;
@@ -209,7 +219,12 @@ body {
 	border-bottom-right-radius: 99em;
 	text-shadow: none;
 	top: auto;
-	padding-left: 1.2em;
+}
+
+@media only screen and (min-width: 769px) {
+	#searchBar button {
+		padding-left: 1.2em;
+	}
 }
 
 #mainNav .brand span,
@@ -464,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .icon-article-doc::before,
 [class^="icon-"], [class*=" icon-"], .featherlight-close-icon {
-	color: #a58c66;
+	color: #fff;
 }
 
 .pagination  {
