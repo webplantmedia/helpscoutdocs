@@ -525,9 +525,9 @@ h1, h2, h3, h4, h5, h6 {
 /* # Custom Categories in Fourths
 ---------------------------------------------------------------------------------------------------- */
 
-#collection-category-21,
-#collection-category-1,
-#collection-category-15 {
+#collection-category-38,
+#collection-category-35,
+#collection-category-32 {
 	border-bottom: 2px solid #f3eeea;
 	background: #a58c66;
 	float: left;
@@ -537,37 +537,37 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 50px;
 }
 
-#collection-category-1 {
+#collection-category-35 {
 	background: top center url(images/pen-solid.png) no-repeat;
 	background-size: 100px 100px;
 	padding-top: 100px;
 }
 
-#collection-category-21 {
+#collection-category-38 {
 	background: top center url(images/cursor-solid.png) no-repeat;
 	background-size: 100px 100px;
 	padding-top: 100px;
 }
 
-#collection-category-15 {
+#collection-category-32 {
 	background: top center url(images/list-solid.png) no-repeat;
 	background-size: 100px 100px;
 	padding-top: 100px;
 }
 
-#collection-category-21.collection-category h2 a,
-#collection-category-1.collection-category h2 a,
+#collection-category-38.collection-category h2 a,
+#collection-category-35.collection-category h2 a,
 #collection-category-5.collection-category h2 a,
-#collection-category-15.collection-category h2 a,
+#collection-category-32.collection-category h2 a,
 #collection-category-652.collection-category h2 a,
 #collection-category-774.collection-category h2 a  {
 	color: #a58c66;
 }
 
-#collection-category-21.collection-category h2 a:hover,
-#collection-category-1.collection-category h2 a:hover,
+#collection-category-38.collection-category h2 a:hover,
+#collection-category-35.collection-category h2 a:hover,
 #collection-category-5.collection-category h2 a:hover,
-#collection-category-15.collection-category h2 a:hover,
+#collection-category-32.collection-category h2 a:hover,
 #collection-category-652.collection-category h2 a:hover,
 #collection-category-774.collection-category h2 a:hover {
 	border-bottom: none;
@@ -578,9 +578,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
-#collection-category-21.collection-category .category-list,
-#collection-category-1.collection-category .category-list,
-#collection-category-15.collection-category .category-list,
+#collection-category-38.collection-category .category-list,
+#collection-category-35.collection-category .category-list,
+#collection-category-32.collection-category .category-list,
 #collection-category-518.collection-category .category-list {
 	display: none;
 }
@@ -756,9 +756,9 @@ footer p a {
 
 @media only screen and (max-width: 800px) {
 
-#collection-category-21, 
-#collection-category-1, 
-#collection-category-15 {
+#collection-category-38, 
+#collection-category-35, 
+#collection-category-32 {
 	margin: 0 0 30px;
 	width: 100%;
 }
