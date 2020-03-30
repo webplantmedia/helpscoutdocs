@@ -1,65 +1,6 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Playfair+Display:400,400i,700,700i';
-
-@font-face {
-    font-family: 'Archer';
-    src: url(fonts/Archer-Light.otf);
-    font-weight:200;
-}
-
-@font-face {
-    font-family: 'Archer';
-    src: url(fonts/Archer-LightItal.otf);
-    font-weight:200;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Archer';
-    src: url(fonts/Archer-Book.otf);
-    font-weight:400;
-}
-
-@font-face {
-    font-family: 'Archer';
-    src: url(fonts/Archer-BookItal.otf);
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Archer';
-    src: url(fonts/Archer-Semibold.otf);
-    font-weight:700;
-}
-
-@font-face {
-    font-family: 'Archer';
-    src: url(fonts/Archer-SembdItal.otf);
-    font-weight:700;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Brandon';
-    src: url(fonts/Brandon_reg.otf);
-    font-weight:300;
-}
-
-@font-face {
-    font-family: 'Brandon';
-    src: url(fonts/Brandon_med.otf);
-    font-weight:400;
-}
-
-@font-face {
-    font-family: 'Brandon';
-    src: url(fonts/Brandon_bld.otf);
-    font-weight:700;
-}
-
 body {
-	border: 100px solid blue;
-	background: #fff url("images/bg.png") repeat-x scroll center top / auto 500px;
+	background: url("https://i.imgur.com/7El8DNV.jpg") no-repeat center top;
+	background-size: 100% 40%;
 	color: #314A5F;
 	font-family: 'Archer', serif;
 	font-weight: 300;
@@ -88,7 +29,7 @@ a.button {
 }
 
 a.button:hover {
-	background: #a58c65;
+	background: #36454f;
 	color: #fff;
 }
 
@@ -104,7 +45,7 @@ a.button:hover {
 	text-indent: -9000px;
 	width: 62px;
 	height: 62px;
-	background: url(images/R316_mark.png) no-repeat 0 0;
+	/*background: url(images/R316_mark.png) no-repeat 0 0;*/
 	background-size: 100%;
 }
 
@@ -143,9 +84,9 @@ a.button:hover {
 ---------------------------------------------------------------------------------------------------- */
 
 #docsSearch {
-	background: #FDF3EF;
 	border: none;
 	padding: 50px 0 0;
+	background: none;
 }
 
 #docsSearch h1 {
@@ -156,7 +97,7 @@ a.button:hover {
 }
 
 #searchBar button {
-	background: #a58c66;
+	background: #3ecf8e;
 	border: 1px solid #a58c66;
 	border-radius: 0;
 	text-shadow: none;
@@ -172,6 +113,7 @@ a.button:hover {
 #sidebar form .search-query {
 	border-radius: 0;
 	border-color: #f3eeea;
+	color:#307dff;
 }
 
 #searchBar .search-query {
@@ -194,7 +136,7 @@ textarea:focus, input:focus, input[type="text"]:focus, input[type="password"]:fo
 }
 
 #sidebar h3 {
-	background: rgba(0, 0, 0, 0) url("images/widget-title.png") no-repeat scroll left center / 20px auto;
+	/*background: rgba(0, 0, 0, 0) url("images/widget-title.png") no-repeat scroll left center / 20px auto;*/
 	color: #314a5f;
     font-size: 18px;
     font-weight: 300;
@@ -222,14 +164,19 @@ textarea:focus, input:focus, input[type="text"]:focus, input[type="password"]:fo
 	background: #fff;
 	margin-top: 50px;
 	padding-top: 50px;
+	border-color: black;
+	border-style: solid;
+	
 }
 
 .category-list .category {
 	background: #fff;
-	border: none;
-	margin: 0;
-	padding: 0px;
-	text-align: left;
+	border: solid thin black;
+	float: left;
+	width: 20.7%;
+	text-align: center;
+	margin: 1%;
+	padding: 1%;
 }
 
 .contentWrapper {
@@ -252,6 +199,7 @@ textarea:focus, input:focus, input[type="text"]:focus, input[type="password"]:fo
 
 #sidebar {
 	margin: 0;
+	border-right: solid bisque;
 }
 
 .article-count {
@@ -278,7 +226,7 @@ textarea:focus, input:focus, input[type="text"]:focus, input[type="password"]:fo
 }
 
 #fullArticle h1, #fullArticle h2, #fullArticle h3, #fullArticle h4, #fullArticle h5, #fullArticle strong {
-	color: #314A5F;
+	color: #c0c0c0;
 }
 
 #fullArticle h4 {
@@ -401,9 +349,9 @@ h1, h2, h3, h4, h5, h6 {
 /* # Custom Categories in Fourths
 ---------------------------------------------------------------------------------------------------- */
 
-#collection-category-21,
-#collection-category-1,
-#collection-category-15 {
+#collection-category-38,
+#collection-category-35,
+#collection-category-32 {
 	border-bottom: 2px solid #f3eeea;
 	background: #a58c66;
 	float: left;
@@ -413,37 +361,41 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 50px;
 }
 
-#collection-category-1 {
-	background: top center url(images/pen-solid.png) no-repeat;
+#collection-category-35 {
+	background: top center url(https://i.imgur.com/ZkTfaSF.jpg) no-repeat;
 	background-size: 100px 100px;
 	padding-top: 100px;
 }
 
-#collection-category-21 {
-	background: top center url(images/cursor-solid.png) no-repeat;
+#collection-category-38 {
+	background: top center url(https://i.imgur.com/Ldy4gpr.jpg) no-repeat;
 	background-size: 100px 100px;
 	padding-top: 100px;
 }
 
-#collection-category-15 {
-	background: top center url(images/list-solid.png) no-repeat;
+#collection-category-32 {
+	background: top url(https://i.imgur.com/Wx8RBBt.jpg) no-repeat;
 	background-size: 100px 100px;
 	padding-top: 100px;
 }
 
-#collection-category-21.collection-category h2 a,
-#collection-category-1.collection-category h2 a,
-#collection-category-5.collection-category h2 a,
-#collection-category-15.collection-category h2 a,
+#collection-category-41.collection-category h2 a{
+	color:black;
+	font-weight: 550;
+}
+
+#collection-category-38.collection-category h2 a,
+#collection-category-35.collection-category h2 a,
+#collection-category-32.collection-category h2 a,
 #collection-category-652.collection-category h2 a,
 #collection-category-774.collection-category h2 a  {
-	color: #a58c66;
+	color: black;
 }
 
-#collection-category-21.collection-category h2 a:hover,
-#collection-category-1.collection-category h2 a:hover,
-#collection-category-5.collection-category h2 a:hover,
-#collection-category-15.collection-category h2 a:hover,
+#collection-category-38.collection-category h2 a:hover,
+#collection-category-35.collection-category h2 a:hover,
+#collection-category-41.collection-category h2 a:hover,
+#collection-category-32.collection-category h2 a:hover,
 #collection-category-652.collection-category h2 a:hover,
 #collection-category-774.collection-category h2 a:hover {
 	border-bottom: none;
@@ -454,34 +406,35 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
-#collection-category-21.collection-category .category-list,
-#collection-category-1.collection-category .category-list,
-#collection-category-15.collection-category .category-list,
-#collection-category-518.collection-category .category-list {
+#collection-category-38.collection-category .category-list,
+#collection-category-35.collection-category .category-list,
+#collection-category-32.collection-category .category-list,
+#collection-category-44.collection-category .category-list {
 	display: none;
 }
 
 /* # Theme Documentation
 ---------------------------------------------------------------------------------------------------- */
 
-#collection-category-5,
+#collection-category-41,
 #collection-category-652 {
 	clear: both;
 	margin-bottom: 50px;
 	overflow: hidden;
+	font-weight: bold !important;
 }
 
 #collection-category-652 {
 	margin-top: 50px;
 }
 
-#collection-category-5.collection-category h2,
+#collection-category-41.collection-category h2,
 #collection-category-652.collection-category h2,
 #collection-category-774.collection-category h2 {
 	margin-bottom: 20px;
 }
 
-#collection-category-5 .category-list .category,
+#collection-category-41.category-list .category,
 #collection-category-652 .category-list .category,
 #collection-category-774 .category-list .category {
 	background: #fff;
@@ -493,22 +446,23 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 1%;
 }
 
-#collection-category-5.collection-category h2,
+#collection-category-41.collection-category h2,
 #collection-category-652.collection-category h2,
 #collection-category-774.collection-category h2 {
-	background: top center url(images/screen-solid.png) no-repeat;
+	/*background: top center url(images/screen-solid.png) no-repeat;*/
 	background-size: 100px 100px;
-	padding-top: 110px;
+	padding-top: 10px;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
-#collection-category-5 .category-list .category:hover,
+#collection-category-41.category-list .category:hover,
 #collection-category-652 .category-list .category:hover,
 #collection-category-774 .category-list .category:hover {
 	background: #f3eeea;
 }
 
-#collection-category-5 .category-list .category h3,
+#collection-category-41.category-list .category h3,
 #collection-category-652 .category-list .category h3,
 #collection-category-774 .category-list .category h3 {
 	text-transform: uppercase;
@@ -517,7 +471,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-	background: url("images/R316_estd-navy.png") no-repeat scroll center top / 300px 81px;
+	/*background: url("images/R316_estd-navy.png") no-repeat scroll center top / 300px 81px;*/
 	margin-top: 100px;
 	padding-top: 90px;
 }
@@ -560,12 +514,12 @@ footer p a {
 /* # Submit a Ticket
 ---------------------------------------------------------------------------------------------------- */
 
-#collection-category-518 {
+#collection-category-44 {
     text-align: center;
 }
 
-#collection-category-518 h2 a {
-	background: #a58c65;
+#collection-category-44 h2 a {
+	background: #3ecf8e;
 	border: 1px solid #a58c65;
     color: #fff;
     font-size: 11px;
@@ -578,7 +532,7 @@ footer p a {
     width: auto;
 }
 
-#collection-category-518 h2 a:hover {
+#collection-category-44 h2 a:hover {
 	background: #fff;
 	color: #a58c65;
 }
@@ -632,9 +586,9 @@ footer p a {
 
 @media only screen and (max-width: 800px) {
 
-#collection-category-21, 
-#collection-category-1, 
-#collection-category-15 {
+#collection-category-38, 
+#collection-category-35, 
+#collection-category-32 {
 	margin: 0 0 30px;
 	width: 100%;
 }
@@ -647,10 +601,11 @@ footer p a {
 
 @media only screen and (max-width: 500px) {
 
-#collection-category-5 .category-list .category,
+#collection-category-41.category-list .category,
 #collection-category-652 .category-list .category {
 	margin: 1% 0;
 	width: 100%;
+	padding-top: 70px !important;
 }
 
 }
