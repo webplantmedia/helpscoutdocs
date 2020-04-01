@@ -8,6 +8,10 @@
 	border-color: #f7f7f7 !important;
 }
 
+#sidebar #serp-dd {
+	top: 46px !important;
+}
+
 #serp-dd .result a {
 	color: #777;
 	transition: none !important;
@@ -42,42 +46,45 @@ a {
 	color: #307dff;
 }
 
+#contactModal .btn,
 #contentArea a.btn,
 #contentArea a.button {
-	border-color: #3ecf8e;
-	background-color: #3ecf8e;
-	color: #ffffff;
+	border-color: #3ecf8e !important;
+	background-color: #3ecf8e !important;
+	color: #ffffff !important;
 	font-family: "PT Sans", "Trebuchet MS", sans-serif;
 	font-size: 16px;
 	font-size: 14px;
-	font-weight: 700;
+	font-weight: 700 !important;
 	letter-spacing: 1.5px;
-	line-height: 1;
+	line-height: 1 !important;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-style: normal;
-	border-radius: 99em;
+	border-radius: 99em !important;
 	border-width: 2px;
 	border-style: solid;
 	cursor: pointer;
-	padding: 14px 26px 14px 26px;
+	padding: 14px 26px 14px 26px !important;
 	padding: 10px 20px;
 	text-align: center;
 	white-space: normal;
 	width: auto;
 	transition: all 0.4s;
 	background-image: none;
-	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08);
-	text-shadow: none;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.08) !important;
+	text-shadow: none !important;
 	margin-bottom: 30px;
+	height: auto !important;
 }
 
 
+#contactModal input.btn:hover,
 #contentArea a.btn:hover,
 #contentArea a.button:hover {
 	border-color: #52e3a2 !important;
 	background-color: #52e3a2 !important;
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 .articleList {
@@ -460,8 +467,8 @@ ul.articleList li a:hover span{
 }
 
 .contentWrapper p.descrip {
-	color: #314a5f;
-	font-size: 17px;
+	/* color: #314a5f; */
+	/* font-size: 17px; */
 	font-weight: 700;
 }
 
@@ -487,7 +494,7 @@ ul.articleList li a:hover span{
 }
 
 #fullArticle .gist-meta {
-	font-size: 10px;
+	font-size: 12px;
 }
 
 #fullArticle img {
@@ -614,14 +621,52 @@ h1, h2, h3, h4, h5, h6 {
 .articleFoot {
 	border-top: 1px solid #edecee;
 	padding-top: 30px;
+	display: flex;
+	margin-bottom: 30px;
+	line-height: 1.2;
+}
+.articleFoot p, .articleFoot time {
+	font-size: 13px;
+}
+#main-content .articleFoot > * {
+	float: none;
+	display: block;
+	margin: 0;
+}
+.articleFoot .icon-contact::before {
+	position: relative;
+	top: -2px;
 }
 
-.articleFoot p, .articleFoot time {
-	font-size: 12px;
+@media only screen and (max-width: 768px) {
+	.articleFoot {
+		display: block;
+		text-align: center;
+	}
+	#main-content .articleFoot > * {
+		display: inline;
+	}
+	#main-content .articleFoot time {
+		margin-top: 5px;
+		display: block;
+		text-align: center;
+	}
+	.articleFoot .icon-contact::before {
+		top: 0;
+		margin-right: 0;
+	}
+
+	#sidebar {
+		margin-top: 60px;
+	}
 }
 
 #sbContact {
-	color: #a58c66;
+	color: #307dff;
+}
+
+#main-content .articleFoot time {
+	margin-left: auto;
 }
 
 .icon-arrow::before,
@@ -1110,6 +1155,7 @@ footer p a:hover {
 	float: none;
 	display: block;
 	text-align: right;
+	font-size: 13px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1122,4 +1168,77 @@ p.highlight {
 	background-color: #307dff !important;
 	color: #fff !important;
 	padding: 4%;
+}
+
+#main-content .articleRatings {
+	border-color: #edecee;
+	border-radius: 0;
+	border-width: 0;
+	box-shadow: none;
+	min-height: 0;
+	padding: 0;
+	color: #a0a0a0;
+}
+#main-content .articleFoot {
+	margin-top: 2.4em;
+}
+
+#contactModal .control-group .controls,
+#contactModal .control-group .control-label {
+	display: block;
+	float: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+#contactModal textarea {
+	padding: 16px 16px !important;
+	box-sizing: border-box;
+	width: 100% !important;
+	border-radius: 4px !important;
+	box-shadow: none;
+}
+#contactModal input {
+	padding: 7px 16px !important;
+	box-sizing: border-box;
+	height: 40px !important;
+	box-shadow: none;
+	width: 100% !important;
+	border-radius: 99em !important;
+}
+#contactModal h2,
+.abuse h2 {
+	padding: 10px 18px 10px 18px !important;
+}
+
+.modal-body {
+	padding: 18px !important;
+}
+
+.modal #closeBtn {
+	top: 10px !important;
+}
+#contactModal input[type="file"] {
+	/* border-radius: 4px !important; */
+}
+.modal label {
+	font-size: 13px !important;
+	margin-bottom: 2px !important;
+}
+
+.modal .form-actions {
+	margin-top: 20px !important;
+	padding: 0 !important;
+}
+.modal .form-actions .btn {
+	margin-bottom: 0 !important;
+}
+.modal .parsley-errors-list {
+	font-size: 13px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.modal input:focus, .modal select:focus, .modal textarea:focus {
+	border-color: #307dff !important;
 }
