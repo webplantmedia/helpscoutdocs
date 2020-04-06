@@ -446,6 +446,7 @@ ul.articleList li a:hover span{
 .category-list .category {
 	background: #fff;
 	margin: 0;
+	width: auto;
 }
 
 .contentWrapper {
